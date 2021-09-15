@@ -1,0 +1,10 @@
+.book_container {
+    margin: 0 auto;
+    background-color: rgb(250, 248, 248);
+    padding: 1rem;
+    width: 98vw;
+}
+
+.book_container h3 {
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    height: 50vh;
+    width: 100%;
+    background-image: url(../../images/haputale-rest-house.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    height: 30%;
+    width: 45%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    color: antiquewhite;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    padding: 0.5rem 1.5rem;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.link:hover {
+    border: 1px solid tomato;
+    border-radius: 10%;
+    color: rgb(83, 34, 34);
+    background-color: tomato;
+}
+
+.header-text {
+    font-size: 25px;
+    letter-spacing: 0.5vw;
+    height: 70%;
+    text-align: center;
+    color: rgb(233, 211, 211);
+}
+
+/*For Mobile View */
+@media all and (max-width: 600px) {
+    .header {
+        height: 50vh;
+    }
+    .navbar {
+        width: 100%;
+        padding: 0.3rem 0;
+    }
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-text {
+        top: 35%;
+        left: 8%;
+    }
+}
