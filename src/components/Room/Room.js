@@ -7,17 +7,15 @@ import { useHistory } from 'react-router';
 import './Room.css';
 
 const Room = (props) => {
-    console.log(props.room);
     let history = useHistory();
     const handleBookClick = (bedtype) => {
         history.push(`/book/${bedType}`);
     }
     
-    console.log(props.room.imageUrl)
     const {avatar, title, price, imageUrl, bed, capacity, description, bedType} = props.room;
     return (
         <div className="room">
-            <h1>{avatar}</h1>
+            <h1 className="avatar">{avatar}</h1>
             <img src={imageUrl} alt="" />
             <h2>{title}</h2>
             <p>{description}</p>

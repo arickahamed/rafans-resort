@@ -5,13 +5,21 @@
     width: 30%;
     height: auto;
     border: 1px solid tomato;
-    background: linear-gradient(to right, rgb(241, 156, 156), rgb(235, 169, 169));
+    background: linear-gradient(to right, rgb(202, 184, 184), rgb(233, 216, 216));
     border-radius: 0.5rem;
 }
 
+.avatar {
+    width:fit-content;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
 img {
-    width: 80%;
-    height: fit-content;
+    width: 98%;
+    height: 40vh;
 }
 
 .icons {
